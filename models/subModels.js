@@ -35,6 +35,8 @@ const Users = new mongoose.Schema({
     {
         type: Date
     }
+},{
+  timestamps: true 
 })
 
 const Categories = new mongoose.Schema({

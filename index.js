@@ -15,12 +15,14 @@ app.use(express.static('public'));
 
 //Router
 let users = require("./routes/user");
+let products = require("./routes/product");
 
 
 app.use('/', users)
+app.use('/', products)
 
 // Step 1
-let PORT = process.env.PORT || 4040;
+let PORT = process.env.PORT;
 
 //Listen Port
 app.listen(PORT, () => { console.log("Backend started at this port " + PORT); })
