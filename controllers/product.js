@@ -31,8 +31,13 @@ exports.updateProduct = async (req, res) => {
 
 exports.listAllProduct = async (req, res) => {
     try {
+        const { size = 10, page = 0, total } = req.query;
         let data = await ProductTable.find().sort({ "created": -1 });
-        responseHandler.success(res, { content: data, count: data?.length }, 'Fetched success', 200)
+        responseHandler.paginated(res,
+            data,
+            { size, page, total: data?.length || total },
+            'Fetched success',
+            200)
     } catch (err) {
         if (err) {
             responseHandler.error(res, err.message, 500)
@@ -42,9 +47,20 @@ exports.listAllProduct = async (req, res) => {
 
 exports.listByCategory = async (req, res) => {
     try {
-        const { mainCategory } = req.params;
-        let data = await ProductTable.find({ mainCategory: mainCategory }).sort({ "created": -1 });
-        responseHandler.success(res, { content: data, count: data?.length }, 'Fetched success', 200)
+        if (req.params) {
+            const { mainCategory = '' } = req.params;
+            const { size = 10, page = 0, total } = req.query;
+            if (mainCategory) {
+                let data = await ProductTable.find({ mainCategory: mainCategory }).sort({ "created": -1 });
+                responseHandler.paginated(
+                    res,
+                    data,
+                    { size, page, total: data?.length || total },
+                    'Fetched success',
+                    200
+                )
+            } else responseHandler.error(res, 'Params missing', 500)
+        } else responseHandler.error(res, 'Params missing', 500)
     } catch (err) {
         if (err) {
             responseHandler.error(res, err.message, 500)
