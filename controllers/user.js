@@ -2,6 +2,7 @@ const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const { UserTable } = require("../models/subModels");
 const { responseHandler } = require("./response");
+const { getTokenUserDetails } = require('./common');
 
 exports.addUser = async (req, res) => {
     try {
@@ -40,7 +41,7 @@ exports.loginUser = async (req, res) => {
                 responseHandler.error(res, "Invalid Password", 400)
             }
             else {
-                jwt.sign({ userMail: user.userMail, UserID: user._id, Name: user.userName, UserType: 'User' }, 'secretkey',
+                jwt.sign({ userMail: user.userMail, UserID: user._id, Name: user.userName, UserType: 'User' }, process.env.JWT_SECRET,
                     { expiresIn: '14d' }, (err, token) => {
                         if (err) {
                             responseHandler.unauthorized(res, "Token Generation Error")
@@ -108,15 +109,18 @@ exports.listUser = async (req, res) => {
 }
 
 exports.getById = async (req, res) => {
-    if (req.params.id && req.params.id !== "undefined") {
-        try {
-            let data = await UserTable.findById({ _id: req.params.id })
-            // const filter = await convertion(data)
-            res.json(data)
-        } catch (err) {
-            if (err) {
-                responseHandler.error(res, err.message, 500)
-            }
+    try {
+        const user = await getTokenUserDetails(req);
+        if (user?._id) {
+            let data = await UserTable.findById(user?._id)
+            delete data.userPassword
+            responseHandler.success(res, data, 'Fetched success', 200)
+        }else {
+            responseHandler.unauthorized(res, 'Un-authorized User', 401)
+        }
+    } catch (err) {
+        if (err) {
+            responseHandler.error(res, err.message, 500)
         }
     }
 }

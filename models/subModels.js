@@ -25,6 +25,7 @@ const Users = new mongoose.Schema({
     addresses: [{
         city: String,
         street: String,
+        pincode: String,
         phone: String
     }],
     isActive: {

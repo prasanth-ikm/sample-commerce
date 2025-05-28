@@ -1,5 +1,8 @@
 const nodemailer = require("nodemailer");
 const path = require('path')
+const jwt = require('jsonwebtoken');
+const { UserTable } = require("../models/subModels");
+const { responseHandler } = require("./response");
 
 const sendEmail = async (data) => {
     let transporter = nodemailer.createTransport({
@@ -42,4 +45,32 @@ const deleteFile = async (data) => {
     }
 }
 
-module.exports = { sendEmail, saveFile, deleteFile }
+
+const authMiddleware = async (req, res, next) => {
+    const authHeader = req.headers.authorization;
+    if (!authHeader || !authHeader.startsWith('Bearer ')) {
+        return responseHandler.forbidden(res, 'No token provided', 403);
+    }
+    try {
+        const token = authHeader.split(' ')[1];
+        const decoded = jwt.verify(token, process.env.JWT_SECRET);
+        req.user = await UserTable.findById(decoded.UserID).select('-password');
+        if (!req.user) return responseHandler.unauthorized(res, 'Un Authorized user', 401);
+        next();
+    } catch (error) {
+        console.error('JWT verification error:', error);
+        responseHandler.error(res, 'Invalid token', 500);
+    }
+};
+
+const getTokenUserDetails = async (req) => {
+    const authHeader = req.headers.authorization;
+    const token = authHeader.split(' ')[1];
+    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+    if (decoded) {
+        let user = await UserTable.findById(decoded.UserID);
+        return user
+    } return {}
+};
+
+module.exports = { sendEmail, saveFile, deleteFile, authMiddleware, getTokenUserDetails }

@@ -4,7 +4,6 @@ const app = express();
 const cors = require("cors");
 const mongoose = require("mongoose")
 const fileUpload = require('express-fileupload');
-
 require('dotenv').config()
 
 //Middleware 
@@ -16,15 +15,14 @@ app.use(express.static('public'));
 //Router
 let users = require("./routes/user");
 let products = require("./routes/product");
+let orders = require("./routes/orders");
 
 
 app.use('/', users)
 app.use('/', products)
+app.use('/', orders)
 
-// Step 1
 let PORT = process.env.PORT;
-
-//Listen Port
 app.listen(PORT, () => { console.log("Backend started at this port " + PORT); })
 
 //DB Connection 

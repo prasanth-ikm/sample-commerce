@@ -1,5 +1,3 @@
-const bcrypt = require('bcrypt');
-const jwt = require('jsonwebtoken');
 const ProductTable = require("../models/product");
 const { responseHandler } = require("./response");
 
@@ -72,7 +70,7 @@ exports.getById = async (req, res) => {
     if (req.params.id && req.params.id !== "undefined") {
         try {
             let data = await ProductTable.findById({ _id: req.params.id })
-            res.json(data)
+            responseHandler.success(res, data, "Product Updated Successfully", 200)
         } catch (err) {
             if (err) {
                 responseHandler.error(res, err.message, 500)
@@ -84,7 +82,7 @@ exports.getByCode = async (req, res) => {
     if (req.params.code && req.params.code !== "undefined") {
         try {
             let data = await ProductTable.find({ productCode: req.params.code })
-            res.json(data)
+            responseHandler.success(res, data, "Product Updated Successfully", 200)
         } catch (err) {
             if (err) {
                 responseHandler.error(res, err.message, 500)
