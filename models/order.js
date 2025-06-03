@@ -15,11 +15,24 @@ const orderSchema = new mongoose.Schema({
     default: 0,
     required: true,
   },
+  originalCost: {
+    type: Number,
+    default: 0,
+  },
+  discount: {
+    type: Number,
+    default: 0,
+  },
+  deliveryCharge: {
+    type: Number,
+    default: 0,
+  },
   items: [
     {
       productId: {
         type: mongoose.Schema.Types.ObjectId,
         ref: "Product",
+        required: true,
       },
       qty: {
         type: Number,
@@ -29,8 +42,19 @@ const orderSchema = new mongoose.Schema({
         type: Number,
         default: 0,
       },
+      originalPrice: {
+        type: Number,
+        default: 0,
+      },
       title: {
         type: String,
+      },
+      imageUrl: {
+        type: String,
+      },
+      size: {
+        type: String,
+        default: '',
       },
       productCode: {
         type: String,
@@ -46,11 +70,7 @@ const orderSchema = new mongoose.Schema({
     required: true,
   },
   paymentStatus: {
-    type: String
-  },
-  createdAt: {
-    type: Date,
-    default: Date.now,
+    type: String,
   },
   deliveryStatus: {
     type: Boolean,

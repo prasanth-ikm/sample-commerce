@@ -23,8 +23,11 @@ const Users = new mongoose.Schema({
     },
     wishlist: [{ type: mongoose.Schema.ObjectId, ref: 'product' }],
     addresses: [{
-        city: String,
-        street: String,
+        _id: { type: mongoose.Schema.Types.ObjectId, auto: true }, // for identifying each address
+        houseAddress: String,
+        state: String,
+        district: String,
+        locality: String,
         pincode: String,
         phone: String
     }],
@@ -36,8 +39,8 @@ const Users = new mongoose.Schema({
     {
         type: Date
     }
-},{
-  timestamps: true 
+}, {
+    timestamps: true
 })
 
 const Categories = new mongoose.Schema({

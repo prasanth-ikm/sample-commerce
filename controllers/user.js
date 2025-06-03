@@ -115,7 +115,7 @@ exports.getById = async (req, res) => {
             let data = await UserTable.findById(user?._id)
             delete data.userPassword
             responseHandler.success(res, data, 'Fetched success', 200)
-        }else {
+        } else {
             responseHandler.unauthorized(res, 'Un-authorized User', 401)
         }
     } catch (err) {
@@ -124,3 +124,88 @@ exports.getById = async (req, res) => {
         }
     }
 }
+
+exports.addUpdateAddress = async (req, res) => {
+    try {
+        const user = await getTokenUserDetails(req);
+        let address = {}
+        if (user?._id) {
+            if (req.body.addressId) {
+                address = await UserTable.findOneAndUpdate(
+                    { _id: user._id, "addresses._id": req.body.addressId },
+                    {
+                        $set: {
+                            "addresses.$.houseAddress": req.body.houseAddress,
+                            "addresses.$.state": req.body.state,
+                            "addresses.$.district": req.body.district,
+                            "addresses.$.locality": req.body.locality,
+                            "addresses.$.pincode": req.body.pincode,
+                            "addresses.$.phone": req.body.phone
+                        }
+                    },
+                    { new: true, runValidators: true }
+                );
+            } else {
+                address = await UserTable.findByIdAndUpdate(
+                    user._id,
+                    { $push: { addresses: req.body } },
+                    { new: true, runValidators: true }
+                );
+            }
+            responseHandler.success(res, address, 'Address updated successfully', 200);
+        } else {
+            responseHandler.unauthorized(res, 'Un-authorized User', 401)
+        }
+    } catch (err) {
+        if (err) {
+            responseHandler.error(res, err.message, 500)
+        }
+    }
+}
+
+exports.deleteAddress = async (req, res) => {
+    try {
+        const user = await getTokenUserDetails(req);
+        if (user?._id) {
+            if (req.body.addressId) {
+                const updatedUser = await UserTable.findByIdAndUpdate(
+                    user._id,
+                    { $pull: { addresses: { _id: req.body.addressId } } },
+                    { new: true }
+                );
+                responseHandler.success(res, updatedUser, 'Address removed successfully', 200);
+            }
+        } else {
+            responseHandler.unauthorized(res, 'Un-authorized User', 401)
+        }
+    } catch (err) {
+        if (err) {
+            responseHandler.error(res, err.message, 500)
+        }
+    }
+}
+
+exports.productWishlist = async (req, res) => {
+    try {
+        const user = await getTokenUserDetails(req);
+        const { productId } = req.body;
+        if (!user?._id || !productId) {
+            return responseHandler.error(res, "User or Product ID missing", 400);
+        }
+        const userDoc = await UserTable.findById(user._id);
+        if (!userDoc) {
+            return responseHandler.unauthorized(res, "User not found", 404);
+        }
+        const index = userDoc.wishlist?.indexOf(productId) ?? -1;
+        if (index > -1) {
+            userDoc.wishlist.splice(index, 1);
+        } else {
+            userDoc.wishlist = userDoc.wishlist || [];
+            userDoc.wishlist.push(productId);
+        }
+        await userDoc.save();
+        responseHandler.success(res, userDoc, 'Wishlist updated', 200);
+    } catch (err) {
+        responseHandler.error(res, err.message, 500);
+    }
+};
