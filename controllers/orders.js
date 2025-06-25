@@ -70,12 +70,18 @@ exports.deleteInCart = async (req, res) => {
         if (userCart) {
             let itemIndex = userCart.items.findIndex(item => item._id.toString() === req.body.productId);
             if (itemIndex > -1) {
-                userCart.totalQty -= userCart.items[itemIndex].qty;
-                userCart.totalCost -= userCart.items[itemIndex].price;
-                userCart.originalCost = userCart.originalCost - userCart.totalCost;
+                const item = userCart.items[itemIndex];
+                userCart.totalQty = item.qty;
+                userCart.totalCost = item.price * item.qty;
+                userCart.originalCost = item.originalPrice * item.qty;
+                userCart.discount = userCart.originalCost - userCart.totalCost;
                 userCart.items.splice(itemIndex, 1);
+                if( userCart.items.length === 0) {
+                    await CartTable.deleteOne({ user: _id });
+                    return responseHandler.success(res, {}, "Cart is empty", 200);
+                }
                 await userCart.save();
-                responseHandler.success(res, userCart, "Product removed from cart Successfully", 200)
+                responseHandler.success(res, userCart, "Product removed from cart", 200)
             } else {
                 responseHandler.error(res, "Product not found in cart", 500)
             }
@@ -129,7 +135,7 @@ exports.getOrder = async (req, res) => {
         if (_id) {
             let data = await OrdersTable.find({ user: _id });
             responseHandler.success(res, data, 'Fetched success', 200)
-        } else responseHandler.error(res, 'User ID missing', 500)
+        } else responseHandler.unauthorized(res, "Login to view orders", 200)
     } catch (err) {
         if (err) {
             responseHandler.error(res, err.message, 500)

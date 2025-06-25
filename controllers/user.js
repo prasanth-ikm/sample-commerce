@@ -135,6 +135,7 @@ exports.addUpdateAddress = async (req, res) => {
                     { _id: user._id, "addresses._id": req.body.addressId },
                     {
                         $set: {
+                            "addresses.$.name": req.body.name,
                             "addresses.$.houseAddress": req.body.houseAddress,
                             "addresses.$.state": req.body.state,
                             "addresses.$.district": req.body.district,
@@ -175,6 +176,22 @@ exports.deleteAddress = async (req, res) => {
                 );
                 responseHandler.success(res, updatedUser, 'Address removed successfully', 200);
             }
+        } else {
+            responseHandler.unauthorized(res, 'Un-authorized User', 401)
+        }
+    } catch (err) {
+        if (err) {
+            responseHandler.error(res, err.message, 500)
+        }
+    }
+}
+
+exports.myAddress = async (req, res) => {
+    try {
+        const user = await getTokenUserDetails(req);
+        if (user?._id) {
+                const userDoc = await UserTable.findById(user._id);
+                responseHandler.success(res, userDoc.addresses, 'Address fetched successfully', 200);
         } else {
             responseHandler.unauthorized(res, 'Un-authorized User', 401)
         }

@@ -24,6 +24,7 @@ const Users = new mongoose.Schema({
     wishlist: [{ type: mongoose.Schema.ObjectId, ref: 'product' }],
     addresses: [{
         _id: { type: mongoose.Schema.Types.ObjectId, auto: true }, // for identifying each address
+        name: String,
         houseAddress: String,
         state: String,
         district: String,
