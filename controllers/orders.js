@@ -76,7 +76,7 @@ exports.deleteInCart = async (req, res) => {
                 userCart.originalCost = item.originalPrice * item.qty;
                 userCart.discount = userCart.originalCost - userCart.totalCost;
                 userCart.items.splice(itemIndex, 1);
-                if( userCart.items.length === 0) {
+                if (userCart.items.length === 0) {
                     await CartTable.deleteOne({ user: _id });
                     return responseHandler.success(res, {}, "Cart is empty", 200);
                 }
@@ -121,6 +121,7 @@ exports.buyNow = async (req, res) => {
             orderData.paymentStatus = paymentStatus
             await orderData.save();
             responseHandler.success(res, orderData, "Order placed successfully", 200)
+            await CartTable.findByIdAndDelete(cartId);
         } else responseHandler.unauthorized(res, "Login to place order", 200)
     } catch (err) {
         if (err) {
