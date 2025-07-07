@@ -125,8 +125,9 @@ exports.buyNow = async (req, res) => {
                 { _id, "addresses._id": cart.address },
                 { "addresses.$": 1 }
             );
-            const { name, district, houseAddress, locality, phone, pincode, state } = address.addresses[0];
-            const addressString = [name, houseAddress, state, district, locality, pincode, phone]
+            const {
+                name = '', district = '', houseAddress = '', locality = '', phone = '', pincode = '', state = ''
+            } = address.addresses[0] || {};
             let orderData = new OrdersTable({
                 totalQty: cart.totalQty,
                 totalCost: cart.totalCost,
@@ -136,8 +137,9 @@ exports.buyNow = async (req, res) => {
                 items: cart.items,
                 user: _id,
                 paymentId: paymentId,
-                address: addressString.join(', '),
-                paymentStatus: 'INITIATED',
+                address: [name, houseAddress, state, district, locality, pincode, phone].join(', '),
+                paymentStatus: !!paymentId,
+                deliveryStatus: 'INITIATED'
             });
             await orderData.save();
             responseHandler.success(res, orderData, "Order placed successfully", 200)
