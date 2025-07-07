@@ -187,6 +187,29 @@ exports.deleteAddress = async (req, res) => {
     }
 }
 
+exports.getAddressById = async (req, res) => {
+    try {
+        const user = await getTokenUserDetails(req);
+        if (user?._id) {
+            const address = await UserTable.findOne(
+                { _id: user._id, "addresses._id": req.params.id },
+                { "addresses.$": 1 }
+            );
+            if (address && address.addresses.length > 0) {
+                responseHandler.success(res, address.addresses[0], 'Address fetched successfully', 200);
+            } else {
+                responseHandler.error(res, 'Address not found', 404);
+            }
+        } else {
+            responseHandler.unauthorized(res, 'Un-authorized User', 401)
+        }
+    } catch (err) {
+        if (err) {
+            responseHandler.error(res, err.message, 500)
+        }
+    }
+}
+
 exports.myAddress = async (req, res) => {
     try {
         const user = await getTokenUserDetails(req);

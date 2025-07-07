@@ -1,0 +1,2255 @@
+[{
+  "_id": {
+    "$oid": "68343ac68b05218e9036af28"
+  },
+  "productCode": "w-231",
+  "url": "https://images.meesho.com/images/products/458445578/lxp44_400.webp",
+  "title": "Jivika Pretty Sarees",
+  "price": 424,
+  "originalPrice": 515,
+  "offerPercentage": 18,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "3432",
+  "ratings": "3.4",
+  "category": [
+    "Saree"
+  ],
+  "mainCategory": "Women",
+  "brand": "Zara",
+  "description": "Beautiful jivika pretty sarees with elegant design, perfect for festive occasions.",
+  "product_details": {
+    "fabric": "Silk",
+    "color": "Multicolor",
+    "work": "Embroidered",
+    "occasion": "Festival, Wedding",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  "images": [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg",
+    "https://example.com/image3.jpg"
+  ],
+  "sellerName": "FashionHub",
+  "combo_offer": {
+    "productId": "w-232",
+    "image": "https://images.meesho.com/images/products/386329438/1bjhj_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "68343ac68b05218e9036af29"
+  },
+  "productCode": "w-232",
+  "url": "https://images.meesho.com/images/products/386329438/1bjhj_400.webp",
+  "title": "Puff Sleeve Kurti",
+  "price": 524,
+  "originalPrice": 664,
+  "offerPercentage": 21,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "2333",
+  "ratings": "4.4",
+  "category": [
+    "Kurti"
+  ],
+  "mainCategory": "Women",
+  "brand": "Nike",
+  "description": "Beautiful puff sleeve kurti with elegant design, perfect for festive occasions.",
+  "product_details": {
+    "fabric": "Silk",
+    "color": "Multicolor",
+    "work": "Embroidered",
+    "occasion": "Festival, Wedding",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  "images": [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg",
+    "https://example.com/image3.jpg"
+  ],
+  "sellerName": "FashionHub",
+  "combo_offer": {
+    "productId": "w-233",
+    "image": "https://images.meesho.com/images/products/149834633/saqqo_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "68343ac68b05218e9036af2a"
+  },
+  "productCode": "w-233",
+  "url": "https://images.meesho.com/images/products/149834633/saqqo_400.webp",
+  "title": "Anarkali Kurti",
+  "price": 374,
+  "originalPrice": 464,
+  "offerPercentage": 19,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "234",
+  "ratings": "3.4",
+  "category": [
+    "Kurti"
+  ],
+  "mainCategory": "Women",
+  "brand": "Adidas",
+  "description": "Beautiful anarkali kurti with elegant design, perfect for festive occasions.",
+  "product_details": {
+    "fabric": "Silk",
+    "color": "Multicolor",
+    "work": "Embroidered",
+    "occasion": "Festival, Wedding",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  "images": [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg",
+    "https://example.com/image3.jpg"
+  ],
+  "sellerName": "FashionHub",
+  "combo_offer": {
+    "productId": "w-234",
+    "image": "https://images.meesho.com/images/products/382519791/yzcii_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "68343ac68b05218e9036af2b"
+  },
+  "productCode": "w-234",
+  "url": "https://images.meesho.com/images/products/382519791/yzcii_400.webp",
+  "title": "Floral design Kurtis",
+  "price": 624,
+  "originalPrice": 776,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "232",
+  "ratings": "3.4",
+  "category": [
+    "Kurti"
+  ],
+  "mainCategory": "Women",
+  "brand": "Puma",
+  "description": "Beautiful floral design kurtis with elegant design, perfect for festive occasions.",
+  "product_details": {
+    "fabric": "Silk",
+    "color": "Multicolor",
+    "work": "Embroidered",
+    "occasion": "Festival, Wedding",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  "images": [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg",
+    "https://example.com/image3.jpg"
+  ],
+  "sellerName": "FashionHub",
+  "combo_offer": {
+    "productId": "w-235",
+    "image": "https://images.meesho.com/images/products/384983175/fhgox_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "68343ac68b05218e9036af2c"
+  },
+  "productCode": "w-235",
+  "url": "https://images.meesho.com/images/products/384983175/fhgox_400.webp",
+  "title": "Trendy Short Top",
+  "price": 454,
+  "originalPrice": 569,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "32432",
+  "ratings": "3.4",
+  "category": [
+    "Top"
+  ],
+  "mainCategory": "Women",
+  "brand": "Nike",
+  "description": "Beautiful trendy short top with elegant design, perfect for festive occasions.",
+  "product_details": {
+    "fabric": "Silk",
+    "color": "Multicolor",
+    "work": "Embroidered",
+    "occasion": "Festival, Wedding",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  "images": [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg",
+    "https://example.com/image3.jpg"
+  ],
+  "sellerName": "FashionHub",
+  "combo_offer": {
+    "productId": "w-236",
+    "image": "https://images.meesho.com/images/products/376569826/b3rql_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "68343ac68b05218e9036af2d"
+  },
+  "productCode": "w-236",
+  "url": "https://images.meesho.com/images/products/376569826/b3rql_400.webp",
+  "title": "Trendy Gown",
+  "price": 734,
+  "originalPrice": 915,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "332",
+  "ratings": "3.4",
+  "category": [
+    "Gown"
+  ],
+  "mainCategory": "Women",
+  "brand": "Adidas",
+  "description": "Beautiful trendy gown with elegant design, perfect for festive occasions.",
+  "product_details": {
+    "fabric": "Silk",
+    "color": "Multicolor",
+    "work": "Embroidered",
+    "occasion": "Festival, Wedding",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  "images": [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg",
+    "https://example.com/image3.jpg"
+  ],
+  "sellerName": "FashionHub",
+  "combo_offer": {
+    "productId": "w-237",
+    "image": "https://images.meesho.com/images/products/399022460/c5ikm_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "68343ac68b05218e9036af2e"
+  },
+  "productCode": "w-237",
+  "url": "https://images.meesho.com/images/products/399022460/c5ikm_400.webp",
+  "title": "Latest treandy tops with coat",
+  "price": 324,
+  "originalPrice": 416,
+  "offerPercentage": 22,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "34",
+  "ratings": "3.4",
+  "category": [
+    "Top"
+  ],
+  "mainCategory": "Women",
+  "brand": "Zara",
+  "description": "Beautiful latest treandy tops with coat with elegant design, perfect for festive occasions.",
+  "product_details": {
+    "fabric": "Silk",
+    "color": "Multicolor",
+    "work": "Embroidered",
+    "occasion": "Festival, Wedding",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  "images": [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg",
+    "https://example.com/image3.jpg"
+  ],
+  "sellerName": "FashionHub",
+  "combo_offer": {
+    "productId": "w-238",
+    "image": "https://images.meesho.com/images/products/191005346/mocgn_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "68343ac68b05218e9036af2f"
+  },
+  "productCode": "w-238",
+  "url": "https://images.meesho.com/images/products/191005346/mocgn_400.webp",
+  "title": "Western kurti with pant",
+  "price": 373,
+  "originalPrice": 471,
+  "offerPercentage": 21,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "76768",
+  "ratings": "3.4",
+  "category": [
+    "Kurti"
+  ],
+  "mainCategory": "Women",
+  "brand": "Puma",
+  "description": "Beautiful western kurti with pant with elegant design, perfect for festive occasions.",
+  "product_details": {
+    "fabric": "Silk",
+    "color": "Multicolor",
+    "work": "Embroidered",
+    "occasion": "Festival, Wedding",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  "images": [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg",
+    "https://example.com/image3.jpg"
+  ],
+  "sellerName": "FashionHub",
+  "combo_offer": {
+    "productId": "w-239",
+    "image": "https://images.meesho.com/images/products/393333484/kbovs_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "68343ac68b05218e9036af30"
+  },
+  "productCode": "w-239",
+  "url": "https://images.meesho.com/images/products/393333484/kbovs_400.webp",
+  "title": "Latest treandy tops with coat",
+  "price": 324,
+  "originalPrice": 409,
+  "offerPercentage": 21,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "7679",
+  "ratings": "3.4",
+  "category": [
+    "Top"
+  ],
+  "mainCategory": "Women",
+  "brand": "Nike",
+  "description": "Beautiful latest treandy tops with coat with elegant design, perfect for festive occasions.",
+  "product_details": {
+    "fabric": "Silk",
+    "color": "Multicolor",
+    "work": "Embroidered",
+    "occasion": "Festival, Wedding",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  "images": [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg",
+    "https://example.com/image3.jpg"
+  ],
+  "sellerName": "FashionHub",
+  "combo_offer": {
+    "productId": "w-2310",
+    "image": "https://images.meesho.com/images/products/68464151/f1nit_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "68343ac68b05218e9036af31"
+  },
+  "productCode": "w-2310",
+  "url": "https://images.meesho.com/images/products/68464151/f1nit_400.webp",
+  "title": "Latest treandy tops with coat",
+  "price": 324,
+  "originalPrice": 404,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "7676",
+  "ratings": "3.4",
+  "category": [
+    "Top"
+  ],
+  "mainCategory": "Women",
+  "brand": "Adidas",
+  "description": "Beautiful latest treandy tops with coat with elegant design, perfect for festive occasions.",
+  "product_details": {
+    "fabric": "Silk",
+    "color": "Multicolor",
+    "work": "Embroidered",
+    "occasion": "Festival, Wedding",
+    "size": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  "images": [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg",
+    "https://example.com/image3.jpg"
+  ],
+  "sellerName": "FashionHub",
+  "combo_offer": {
+    "productId": "w-2311",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683442cfd1396ae759e8bb49"
+  },
+  "productCode": "m-331",
+  "url": "https://images.meesho.com/images/products/485621590/pnrwa_400.webp",
+  "title": "Causal T-shirt",
+  "price": 324,
+  "originalPrice": 405,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "3756",
+  "ratings": "3.4",
+  "category": [
+    "T-Shirts"
+  ],
+  "mainCategory": "Men",
+  "brand": "Puma",
+  "description": "Casual and stylish T-shirt, perfect for everyday wear.",
+  "product_details": {
+    "fabric": "Cotton",
+    "color": "Navy Blue",
+    "work": "Printed",
+    "occasion": "Casual",
+    "size": [
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  "images": [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg",
+    "https://example.com/image3.jpg"
+  ],
+  "sellerName": "FashionHub",
+  "combo_offer": {
+    "productId": "m-331-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683442cfd1396ae759e8bb4a"
+  },
+  "productCode": "m-332",
+  "url": "https://images.meesho.com/images/products/6585573/67517_400.webp",
+  "title": "Formal Mens Shirt",
+  "price": 524,
+  "originalPrice": 655,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "346",
+  "ratings": "3.4",
+  "category": [
+    "Shirts"
+  ],
+  "mainCategory": "Men",
+  "brand": "Nike",
+  "description": "Elegant formal shirt suitable for office and meetings.",
+  "product_details": {
+    "fabric": "Cotton Blend",
+    "color": "White",
+    "work": "Plain",
+    "occasion": "Formal",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  "images": [
+    "https://example.com/shirt1.jpg",
+    "https://example.com/shirt2.jpg",
+    "https://example.com/shirt3.jpg"
+  ],
+  "sellerName": "UrbanCloth",
+  "combo_offer": {
+    "productId": "m-332-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683442cfd1396ae759e8bb4b"
+  },
+  "productCode": "m-333",
+  "url": "https://images.meesho.com/images/products/415995326/rrm1r_400.webp",
+  "title": "Fancy Mens Dhoti",
+  "price": 324,
+  "originalPrice": 400,
+  "offerPercentage": 19,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "778",
+  "ratings": "3.4",
+  "category": [
+    "Dhoti"
+  ],
+  "mainCategory": "Men",
+  "brand": "Adidas",
+  "description": "Traditional dhoti with a modern touch, ideal for festive occasions.",
+  "product_details": {
+    "fabric": "Silk Blend",
+    "color": "Cream",
+    "work": "Zari Border",
+    "occasion": "Traditional",
+    "size": [
+      "Free Size"
+    ]
+  },
+  "images": [
+    "https://example.com/dhoti1.jpg",
+    "https://example.com/dhoti2.jpg",
+    "https://example.com/dhoti3.jpg"
+  ],
+  "sellerName": "EthnicTrendz",
+  "combo_offer": {
+    "productId": "m-333-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683442cfd1396ae759e8bb4c"
+  },
+  "productCode": "m-334",
+  "url": "https://images.meesho.com/images/products/1707198/1_400.webp",
+  "title": "Track Pants",
+  "price": 524,
+  "originalPrice": 655,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "566",
+  "ratings": "3.4",
+  "category": [
+    "Pants"
+  ],
+  "mainCategory": "Men",
+  "brand": "Zara",
+  "description": "Comfortable track pants perfect for workouts and casual wear.",
+  "product_details": {
+    "fabric": "Polyester",
+    "color": "Black",
+    "work": "Solid",
+    "occasion": "Sports, Casual",
+    "size": [
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  "images": [
+    "https://example.com/pants1.jpg",
+    "https://example.com/pants2.jpg",
+    "https://example.com/pants3.jpg"
+  ],
+  "sellerName": "MoveFit",
+  "combo_offer": {
+    "productId": "m-334-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683442cfd1396ae759e8bb4d"
+  },
+  "productCode": "m-335",
+  "url": "https://images.meesho.com/images/products/44175508/bbvuf_400.webp",
+  "title": "Mens Causal Shirts",
+  "price": 724,
+  "originalPrice": 905,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "664",
+  "ratings": "3.4",
+  "category": [
+    "Shirts"
+  ],
+  "mainCategory": "Men",
+  "brand": "Puma",
+  "description": "Trendy casual shirt, ideal for weekends and outings.",
+  "product_details": {
+    "fabric": "Linen Blend",
+    "color": "Red",
+    "work": "Checked",
+    "occasion": "Casual",
+    "size": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  "images": [
+    "https://example.com/casualshirt1.jpg",
+    "https://example.com/casualshirt2.jpg",
+    "https://example.com/casualshirt3.jpg"
+  ],
+  "sellerName": "FashionHub",
+  "combo_offer": {
+    "productId": "m-335-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683442cfd1396ae759e8bb4e"
+  },
+  "productCode": "m-336",
+  "url": "https://images.meesho.com/images/products/36477568/6l0jc_400.webp",
+  "title": "Urbane Mens t-shirt",
+  "price": 424,
+  "originalPrice": 530,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "453",
+  "ratings": "3.4",
+  "category": [
+    "T-Shirts"
+  ],
+  "mainCategory": "Men",
+  "brand": "Nike",
+  "description": "Trendy urban T-shirt designed for comfort and fashion.",
+  "product_details": {
+    "fabric": "Cotton",
+    "color": "Grey",
+    "work": "Graphic Print",
+    "occasion": "Casual",
+    "size": [
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  "images": [
+    "https://example.com/tshirt1.jpg",
+    "https://example.com/tshirt2.jpg",
+    "https://example.com/tshirt3.jpg"
+  ],
+  "sellerName": "CityWear",
+  "combo_offer": {
+    "productId": "m-336-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683442cfd1396ae759e8bb4f"
+  },
+  "productCode": "m-337",
+  "url": "https://images.meesho.com/images/products/27029586/8wbfn_400.webp",
+  "title": "Slim fit jeans",
+  "price": 324,
+  "originalPrice": 405,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "78565",
+  "ratings": "3.4",
+  "category": [
+    "Jeans"
+  ],
+  "mainCategory": "Men",
+  "brand": "Adidas",
+  "description": "Slim fit jeans that add style to your casual wardrobe.",
+  "product_details": {
+    "fabric": "Denim",
+    "color": "Blue",
+    "work": "Solid",
+    "occasion": "Casual",
+    "size": [
+      "30",
+      "32",
+      "34",
+      "36"
+    ]
+  },
+  "images": [
+    "https://example.com/jeans1.jpg",
+    "https://example.com/jeans2.jpg",
+    "https://example.com/jeans3.jpg"
+  ],
+  "sellerName": "DenimPoint",
+  "combo_offer": {
+    "productId": "m-337-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683442cfd1396ae759e8bb50"
+  },
+  "productCode": "m-338",
+  "url": "https://images.meesho.com/images/products/19403589/rladh_400.webp",
+  "title": "Urbane Mens T-shirt",
+  "price": 284,
+  "originalPrice": 355,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "57567",
+  "ratings": "3.4",
+  "category": [
+    "T-Shirts"
+  ],
+  "mainCategory": "Men",
+  "brand": "Zara",
+  "description": "Stylish and affordable T-shirt, designed for everyday wear.",
+  "product_details": {
+    "fabric": "Cotton",
+    "color": "Black",
+    "work": "Printed",
+    "occasion": "Casual",
+    "size": [
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  "images": [
+    "https://example.com/tshirt4.jpg",
+    "https://example.com/tshirt5.jpg",
+    "https://example.com/tshirt6.jpg"
+  ],
+  "sellerName": "DailyTrends",
+  "combo_offer": {
+    "productId": "m-338-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683442cfd1396ae759e8bb51"
+  },
+  "productCode": "m-339",
+  "url": "https://images.meesho.com/images/products/54469196/v1ytc_400.webp",
+  "title": "Ethnic Wear",
+  "price": 524,
+  "originalPrice": 655,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "3648",
+  "ratings": "3.4",
+  "category": [
+    "Ethnic Wear"
+  ],
+  "mainCategory": "Men",
+  "brand": "Puma",
+  "description": "Traditional ethnic wear for special events and celebrations.",
+  "product_details": {
+    "fabric": "Cotton Silk",
+    "color": "Maroon",
+    "work": "Embroidered",
+    "occasion": "Festival, Wedding",
+    "size": [
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  "images": [
+    "https://example.com/ethnic1.jpg",
+    "https://example.com/ethnic2.jpg",
+    "https://example.com/ethnic3.jpg"
+  ],
+  "sellerName": "IndianVastra",
+  "combo_offer": {
+    "productId": "m-339-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683442cfd1396ae759e8bb52"
+  },
+  "productCode": "m-3310",
+  "url": "https://images.meesho.com/images/products/8815696/6ra4y_400.webp",
+  "title": "Mens Causal Shirt",
+  "price": 424,
+  "originalPrice": 530,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "8628",
+  "ratings": "3.4",
+  "category": [
+    "Shirts"
+  ],
+  "mainCategory": "Men",
+  "brand": "Nike",
+  "description": "Lightweight and breathable casual shirt for comfort.",
+  "product_details": {
+    "fabric": "Cotton",
+    "color": "Light Blue",
+    "work": "Plain",
+    "occasion": "Casual",
+    "size": [
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  "images": [
+    "https://example.com/casual1.jpg",
+    "https://example.com/casual2.jpg",
+    "https://example.com/casual3.jpg"
+  ],
+  "sellerName": "ComfyWear",
+  "combo_offer": {
+    "productId": "m-3310-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683442cfd1396ae759e8bb53"
+  },
+  "productCode": "m-3311",
+  "url": "https://images.meesho.com/images/products/5920831/yaykq_400.webp",
+  "title": "Ethnic Wear",
+  "price": 524,
+  "originalPrice": 655,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "1336",
+  "ratings": "3.4",
+  "category": [
+    "Ethnic Wear"
+  ],
+  "mainCategory": "Men",
+  "brand": "Adidas",
+  "description": "Elegant and comfortable ethnic wear for traditional events.",
+  "product_details": {
+    "fabric": "Rayon",
+    "color": "Beige",
+    "work": "Embroidery",
+    "occasion": "Traditional",
+    "size": [
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  "images": [
+    "https://example.com/ethnic4.jpg",
+    "https://example.com/ethnic5.jpg",
+    "https://example.com/ethnic6.jpg"
+  ],
+  "sellerName": "DesiStyle",
+  "combo_offer": {
+    "productId": "m-3311-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683442cfd1396ae759e8bb54"
+  },
+  "productCode": "m-3312",
+  "url": "https://images.meesho.com/images/products/186274486/oidhk_400.webp",
+  "title": "Mens Trendy Shorts",
+  "price": 224,
+  "originalPrice": 280,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "437",
+  "ratings": "3.4",
+  "category": [
+    "Shorts"
+  ],
+  "mainCategory": "Men",
+  "brand": "Zara",
+  "description": "Breathable and trendy shorts ideal for summers.",
+  "product_details": {
+    "fabric": "Cotton",
+    "color": "Olive",
+    "work": "Solid",
+    "occasion": "Casual",
+    "size": [
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  "images": [
+    "https://example.com/shorts1.jpg",
+    "https://example.com/shorts2.jpg",
+    "https://example.com/shorts3.jpg"
+  ],
+  "sellerName": "CoolWear",
+  "combo_offer": {
+    "productId": "m-3312-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683443ffd1396ae759e8bb55"
+  },
+  "productCode": "f-441",
+  "url": "https://images.meesho.com/images/products/489183933/0b3hy_400.webp",
+  "title": "Womens trendy Sandals",
+  "price": 324,
+  "originalPrice": 405,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "3756",
+  "ratings": "3.4",
+  "category": [
+    "Sandals"
+  ],
+  "mainCategory": "Footwear",
+  "brand": "Paragon",
+  "description": "Trendy and stylish sandals perfect for daily wear.",
+  "product_details": {
+    "fabric": "Synthetic",
+    "color": "Beige",
+    "work": "Solid",
+    "occasion": "Casual",
+    "size": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "images": [
+    "https://example.com/sandals1.jpg",
+    "https://example.com/sandals2.jpg",
+    "https://example.com/sandals3.jpg"
+  ],
+  "sellerName": "ShoeStop",
+  "combo_offer": {
+    "productId": "f-441-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683443ffd1396ae759e8bb56"
+  },
+  "productCode": "f-442",
+  "url": "https://images.meesho.com/images/products/266882199/3xl12_400.webp",
+  "title": "Formal Mens Shoes",
+  "price": 524,
+  "originalPrice": 655,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "346",
+  "ratings": "3.4",
+  "category": [
+    "Shoes"
+  ],
+  "mainCategory": "Footwear",
+  "brand": "Liberty",
+  "description": "Classic formal shoes for office or formal events.",
+  "product_details": {
+    "fabric": "Leather",
+    "color": "Black",
+    "work": "Plain",
+    "occasion": "Formal",
+    "size": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ]
+  },
+  "images": [
+    "https://example.com/shoes1.jpg",
+    "https://example.com/shoes2.jpg",
+    "https://example.com/shoes3.jpg"
+  ],
+  "sellerName": "Liberty Store",
+  "combo_offer": {
+    "productId": "f-442-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683443ffd1396ae759e8bb57"
+  },
+  "productCode": "f-443",
+  "url": "https://images.meesho.com/images/products/427376570/s6yrb_400.webp",
+  "title": "Fancy kids sandals",
+  "price": 324,
+  "originalPrice": 405,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "778",
+  "ratings": "3.4",
+  "category": [
+    "Kids",
+    "Sandals"
+  ],
+  "mainCategory": "Footwear",
+  "brand": "Relaxo",
+  "description": "Comfortable and fun sandals for kids.",
+  "product_details": {
+    "fabric": "PVC",
+    "color": "Red",
+    "work": "Cartoon Printed",
+    "occasion": "Daily Wear",
+    "size": [
+      "2",
+      "3",
+      "4"
+    ]
+  },
+  "images": [
+    "https://example.com/kids1.jpg",
+    "https://example.com/kids2.jpg",
+    "https://example.com/kids3.jpg"
+  ],
+  "sellerName": "Relaxo Kids",
+  "combo_offer": {
+    "productId": "f-443-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683443ffd1396ae759e8bb58"
+  },
+  "productCode": "f-444",
+  "url": "https://images.meesho.com/images/products/41816149/8ioys_400.webp",
+  "title": "Sandals",
+  "price": 524,
+  "originalPrice": 655,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "566",
+  "ratings": "3.4",
+  "category": [
+    "Sandals"
+  ],
+  "mainCategory": "Footwear",
+  "brand": "Bata",
+  "description": "Sturdy sandals suitable for long walks.",
+  "product_details": {
+    "fabric": "Rubber",
+    "color": "Brown",
+    "work": "Textured",
+    "occasion": "Daily Wear",
+    "size": [
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "images": [
+    "https://example.com/bata1.jpg",
+    "https://example.com/bata2.jpg",
+    "https://example.com/bata3.jpg"
+  ],
+  "sellerName": "Bata Originals",
+  "combo_offer": {
+    "productId": "f-444-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683443ffd1396ae759e8bb59"
+  },
+  "productCode": "f-445",
+  "url": "https://images.meesho.com/images/products/137626314/zyscv_400.webp",
+  "title": "Mens Causal Sandals",
+  "price": 724,
+  "originalPrice": 905,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "664",
+  "ratings": "3.4",
+  "category": [
+    "Sandals"
+  ],
+  "mainCategory": "Footwear",
+  "brand": "Paragon",
+  "description": "Casual sandals for men with comfortable fit.",
+  "product_details": {
+    "fabric": "Synthetic",
+    "color": "Black",
+    "work": "Plain",
+    "occasion": "Casual",
+    "size": [
+      "8",
+      "9",
+      "10"
+    ]
+  },
+  "images": [
+    "https://example.com/casual1.jpg",
+    "https://example.com/casual2.jpg",
+    "https://example.com/casual3.jpg"
+  ],
+  "sellerName": "Paragon Store",
+  "combo_offer": {
+    "productId": "f-445-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683443ffd1396ae759e8bb5a"
+  },
+  "productCode": "f-446",
+  "url": "https://images.meesho.com/images/products/370528537/mczok_400.webp",
+  "title": "Sports Shoes",
+  "price": 424,
+  "originalPrice": 530,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "453",
+  "ratings": "3.4",
+  "category": [
+    "Sports Shoes"
+  ],
+  "mainCategory": "Footwear",
+  "brand": "Liberty",
+  "description": "Lightweight sports shoes for active wear.",
+  "product_details": {
+    "fabric": "Mesh",
+    "color": "Blue",
+    "work": "Breathable",
+    "occasion": "Sports",
+    "size": [
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "images": [
+    "https://example.com/sports1.jpg",
+    "https://example.com/sports2.jpg",
+    "https://example.com/sports3.jpg"
+  ],
+  "sellerName": "Liberty Sports",
+  "combo_offer": {
+    "productId": "f-446-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683443ffd1396ae759e8bb5b"
+  },
+  "productCode": "f-447",
+  "url": "https://images.meesho.com/images/products/523781120/janed_400.webp",
+  "title": "Sandals",
+  "price": 324,
+  "originalPrice": 405,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "78565",
+  "ratings": "3.4",
+  "category": [
+    "Sandals"
+  ],
+  "mainCategory": "Footwear",
+  "brand": "Relaxo",
+  "description": "Durable and trendy sandals for everyday use.",
+  "product_details": {
+    "fabric": "Synthetic",
+    "color": "Tan",
+    "work": "Textured",
+    "occasion": "Casual",
+    "size": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "images": [
+    "https://example.com/relaxo1.jpg",
+    "https://example.com/relaxo2.jpg",
+    "https://example.com/relaxo3.jpg"
+  ],
+  "sellerName": "Relaxo Official",
+  "combo_offer": {
+    "productId": "f-447-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683443ffd1396ae759e8bb5c"
+  },
+  "productCode": "f-448",
+  "url": "https://images.meesho.com/images/products/332463695/woduf_400.webp",
+  "title": "Womens Fashionable Footwer",
+  "price": 284,
+  "originalPrice": 355,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "57567",
+  "ratings": "3.4",
+  "category": [
+    "Footwear"
+  ],
+  "mainCategory": "Footwear",
+  "brand": "Bata",
+  "description": "Fashionable footwear for women with elegant design.",
+  "product_details": {
+    "fabric": "Leather",
+    "color": "Maroon",
+    "work": "Embossed",
+    "occasion": "Party",
+    "size": [
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "images": [
+    "https://example.com/fashion1.jpg",
+    "https://example.com/fashion2.jpg",
+    "https://example.com/fashion3.jpg"
+  ],
+  "sellerName": "Bata Fashion",
+  "combo_offer": {
+    "productId": "f-448-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683443ffd1396ae759e8bb5d"
+  },
+  "productCode": "f-449",
+  "url": "https://images.meesho.com/images/products/74345276/tnnnr_400.webp",
+  "title": "Sports fashionable shoes",
+  "price": 524,
+  "originalPrice": 655,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "3648",
+  "ratings": "3.4",
+  "category": [
+    "Sports Shoes"
+  ],
+  "mainCategory": "Footwear",
+  "brand": "Relaxo",
+  "description": "Modern sports shoes with great comfort and style.",
+  "product_details": {
+    "fabric": "Mesh",
+    "color": "Grey",
+    "work": "Breathable",
+    "occasion": "Sports",
+    "size": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ]
+  },
+  "images": [
+    "https://example.com/sportsfash1.jpg",
+    "https://example.com/sportsfash2.jpg",
+    "https://example.com/sportsfash3.jpg"
+  ],
+  "sellerName": "Relaxo Sports",
+  "combo_offer": {
+    "productId": "f-449-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683443ffd1396ae759e8bb5e"
+  },
+  "productCode": "f-4410",
+  "url": "https://images.meesho.com/images/products/352557717/ule9k_400.webp",
+  "title": "Korean style sandals",
+  "price": 424,
+  "originalPrice": 530,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "8628",
+  "ratings": "3.4",
+  "category": [
+    "Sandals"
+  ],
+  "mainCategory": "Footwear",
+  "brand": "Liberty",
+  "description": "Trendy Korean style sandals for fashion lovers.",
+  "product_details": {
+    "fabric": "Synthetic",
+    "color": "White",
+    "work": "Plain",
+    "occasion": "Casual",
+    "size": [
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  "images": [
+    "https://example.com/koreansandal1.jpg",
+    "https://example.com/koreansandal2.jpg",
+    "https://example.com/koreansandal3.jpg"
+  ],
+  "sellerName": "Liberty Originals",
+  "combo_offer": {
+    "productId": "f-4410-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683443ffd1396ae759e8bb5f"
+  },
+  "productCode": "f-4411",
+  "url": "https://images.meesho.com/images/products/480515505/j2sg5_400.webp",
+  "title": "Mens Fashionable Sandals",
+  "price": 524,
+  "originalPrice": 655,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "6336",
+  "ratings": "3.4",
+  "category": [
+    "Sandals"
+  ],
+  "mainCategory": "Footwear",
+  "brand": "Bata",
+  "description": "Fashionable and comfortable sandals for men.",
+  "product_details": {
+    "fabric": "Leather",
+    "color": "Brown",
+    "work": "Textured",
+    "occasion": "Casual",
+    "size": [
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "images": [
+    "https://example.com/menssandals1.jpg",
+    "https://example.com/menssandals2.jpg",
+    "https://example.com/menssandals3.jpg"
+  ],
+  "sellerName": "Bata Men",
+  "combo_offer": {
+    "productId": "f-4411-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683443ffd1396ae759e8bb60"
+  },
+  "productCode": "f-4412",
+  "url": "https://images.meesho.com/images/products/464713773/jxteq_400.webp",
+  "title": "Kids Sports Sandals",
+  "price": 324,
+  "originalPrice": 405,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "479",
+  "ratings": "3.4",
+  "category": [
+    "Kids",
+    "Sports Shoes"
+  ],
+  "mainCategory": "Footwear",
+  "brand": "Relaxo",
+  "description": "Durable sports sandals designed for kids.",
+  "product_details": {
+    "fabric": "PVC",
+    "color": "Blue",
+    "work": "Mesh",
+    "occasion": "Sports",
+    "size": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  "images": [
+    "https://example.com/kidssports1.jpg",
+    "https://example.com/kidssports2.jpg",
+    "https://example.com/kidssports3.jpg"
+  ],
+  "sellerName": "Relaxo Kids Sports",
+  "combo_offer": {
+    "productId": "f-4412-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683444a0d1396ae759e8bb61"
+  },
+  "productCode": "bp-551",
+  "url": "https://images.meesho.com/images/products/199994486/y67cv_400.webp",
+  "title": "Mens FaceWash",
+  "price": 324,
+  "originalPrice": 405,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "3756",
+  "ratings": "3.4",
+  "category": [
+    "FaceWash"
+  ],
+  "mainCategory": "BeautyProducts",
+  "brand": "LatiBlue",
+  "description": "Refreshing facewash for men, perfect for daily use.",
+  "product_details": {
+    "fabric": "N/A",
+    "color": "N/A",
+    "work": "N/A",
+    "occasion": "Daily Use",
+    "size": []
+  },
+  "images": [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg",
+    "https://example.com/image3.jpg"
+  ],
+  "sellerName": "BeautyMart",
+  "combo_offer": {
+    "productId": "bp-551-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683444a0d1396ae759e8bb62"
+  },
+  "productCode": "bp-552",
+  "url": "https://images.meesho.com/images/products/406099925/av7oy_400.webp",
+  "title": "Massage ice Roller",
+  "price": 524,
+  "originalPrice": 655,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "346",
+  "ratings": "3.4",
+  "category": [
+    "Massage"
+  ],
+  "mainCategory": "BeautyProducts",
+  "brand": "MamaEarth",
+  "description": "Cooling ice roller for relaxing facial massage.",
+  "product_details": {
+    "fabric": "Plastic",
+    "color": "Blue",
+    "work": "Smooth",
+    "occasion": "Relaxation",
+    "size": []
+  },
+  "images": [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg",
+    "https://example.com/image3.jpg"
+  ],
+  "sellerName": "BeautyMart",
+  "combo_offer": {
+    "productId": "bp-552-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683444a0d1396ae759e8bb63"
+  },
+  "productCode": "bp-553",
+  "url": "https://images.meesho.com/images/products/14176377/09vvo_400.webp",
+  "title": "Vitamin-E Capsule",
+  "price": 324,
+  "originalPrice": 405,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "778",
+  "ratings": "3.4",
+  "category": [
+    "Capsules"
+  ],
+  "mainCategory": "BeautyProducts",
+  "brand": "DermaTouch",
+  "description": "Vitamin-E capsules for glowing skin and health.",
+  "product_details": {
+    "fabric": "N/A",
+    "color": "Golden",
+    "work": "N/A",
+    "occasion": "Health",
+    "size": []
+  },
+  "images": [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg",
+    "https://example.com/image3.jpg"
+  ],
+  "sellerName": "BeautyMart",
+  "combo_offer": {
+    "productId": "bp-553-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683444a0d1396ae759e8bb64"
+  },
+  "productCode": "bp-554",
+  "url": "https://images.meesho.com/images/products/295081509/mtxdo_400.webp",
+  "title": "MamaEarth Rice Facewash",
+  "price": 524,
+  "originalPrice": 655,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "566",
+  "ratings": "3.4",
+  "category": [
+    "FaceWash"
+  ],
+  "mainCategory": "BeautyProducts",
+  "brand": "MamaEarth",
+  "description": "Gentle rice facewash for natural skin glow.",
+  "product_details": {
+    "fabric": "N/A",
+    "color": "White",
+    "work": "Gentle",
+    "occasion": "Daily Use",
+    "size": []
+  },
+  "images": [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg",
+    "https://example.com/image3.jpg"
+  ],
+  "sellerName": "BeautyMart",
+  "combo_offer": {
+    "productId": "bp-554-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683444a0d1396ae759e8bb65"
+  },
+  "productCode": "bp-555",
+  "url": "https://images.meesho.com/images/products/186909137/jgrvh_400.webp",
+  "title": "Dermatouch facewash",
+  "price": 724,
+  "originalPrice": 905,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "664",
+  "ratings": "3.4",
+  "category": [
+    "FaceWash"
+  ],
+  "mainCategory": "BeautyProducts",
+  "brand": "DermaTouch",
+  "description": "Advanced dermatouch facewash for deep cleansing.",
+  "product_details": {
+    "fabric": "N/A",
+    "color": "Green",
+    "work": "Deep Cleanse",
+    "occasion": "Daily Use",
+    "size": []
+  },
+  "images": [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg",
+    "https://example.com/image3.jpg"
+  ],
+  "sellerName": "BeautyMart",
+  "combo_offer": {
+    "productId": "bp-555-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683444a0d1396ae759e8bb66"
+  },
+  "productCode": "bp-556",
+  "url": "https://images.meesho.com/images/products/434489685/zeeu7_400.webp",
+  "title": "Multani matti pack",
+  "price": 424,
+  "originalPrice": 530,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "453",
+  "ratings": "3.4",
+  "category": [
+    "Face Pack"
+  ],
+  "mainCategory": "BeautyProducts",
+  "brand": "LatiBlue",
+  "description": "Natural Multani matti pack for clear skin.",
+  "product_details": {
+    "fabric": "N/A",
+    "color": "Brown",
+    "work": "Clay",
+    "occasion": "Face Care",
+    "size": []
+  },
+  "images": [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg",
+    "https://example.com/image3.jpg"
+  ],
+  "sellerName": "BeautyMart",
+  "combo_offer": {
+    "productId": "bp-556-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683444a0d1396ae759e8bb67"
+  },
+  "productCode": "bp-557",
+  "url": "https://images.meesho.com/images/products/401262974/olmla_400.webp",
+  "title": "Womens Combo Facepack",
+  "price": 324,
+  "originalPrice": 405,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "78565",
+  "ratings": "3.4",
+  "category": [
+    "Face Pack"
+  ],
+  "mainCategory": "BeautyProducts",
+  "brand": "DermaTouch",
+  "description": "Combo facepack set for women, perfect for glowing skin.",
+  "product_details": {
+    "fabric": "N/A",
+    "color": "Multi",
+    "work": "Combo Pack",
+    "occasion": "Face Care",
+    "size": []
+  },
+  "images": [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg",
+    "https://example.com/image3.jpg"
+  ],
+  "sellerName": "BeautyMart",
+  "combo_offer": {
+    "productId": "bp-557-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683444a0d1396ae759e8bb68"
+  },
+  "productCode": "bp-558",
+  "url": "https://images.meesho.com/images/products/279682111/kuhpx_400.webp",
+  "title": "Charcoal FaceMask",
+  "price": 284,
+  "originalPrice": 355,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "57567",
+  "ratings": "3.4",
+  "category": [
+    "Face Mask"
+  ],
+  "mainCategory": "BeautyProducts",
+  "brand": "MamaEarth",
+  "description": "Purifying charcoal face mask for deep cleansing.",
+  "product_details": {
+    "fabric": "N/A",
+    "color": "Black",
+    "work": "Charcoal",
+    "occasion": "Face Care",
+    "size": []
+  },
+  "images": [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg",
+    "https://example.com/image3.jpg"
+  ],
+  "sellerName": "BeautyMart",
+  "combo_offer": {
+    "productId": "bp-558-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683444a0d1396ae759e8bb69"
+  },
+  "productCode": "bp-559",
+  "url": "https://images.meesho.com/images/products/408032566/ecuzx_400.webp",
+  "title": "Facial Hair removal kit",
+  "price": 524,
+  "originalPrice": 655,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "3648",
+  "ratings": "3.4",
+  "category": [
+    "Kit"
+  ],
+  "mainCategory": "BeautyProducts",
+  "brand": "LatiBlue",
+  "description": "Complete facial hair removal kit.",
+  "product_details": {
+    "fabric": "Plastic",
+    "color": "White",
+    "work": "Hair Removal",
+    "occasion": "Beauty Care",
+    "size": []
+  },
+  "images": [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg",
+    "https://example.com/image3.jpg"
+  ],
+  "sellerName": "BeautyMart",
+  "combo_offer": {
+    "productId": "bp-559-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683444a0d1396ae759e8bb6a"
+  },
+  "productCode": "bp-5510",
+  "url": "https://images.meesho.com/images/products/311047361/izpnn_400.webp",
+  "title": "Vitamin-C Facewash",
+  "price": 424,
+  "originalPrice": 530,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "8628",
+  "ratings": "3.4",
+  "category": [
+    "FaceWash"
+  ],
+  "mainCategory": "BeautyProducts",
+  "brand": "MamaEarth",
+  "description": "Vitamin-C enriched facewash for bright skin.",
+  "product_details": {
+    "fabric": "N/A",
+    "color": "White",
+    "work": "Vitamin Enriched",
+    "occasion": "Daily Use",
+    "size": []
+  },
+  "images": [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg",
+    "https://example.com/image3.jpg"
+  ],
+  "sellerName": "BeautyMart",
+  "combo_offer": {
+    "productId": "bp-5510-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683444a0d1396ae759e8bb6b"
+  },
+  "productCode": "bp-5511",
+  "url": "https://images.meesho.com/images/products/311768960/5xb8w_400.webp",
+  "title": "Womens Perfume",
+  "price": 524,
+  "originalPrice": 655,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "1336",
+  "ratings": "3.4",
+  "category": [
+    "Perfume"
+  ],
+  "mainCategory": "BeautyProducts",
+  "brand": "LatiBlue",
+  "description": "Fragrant perfume for women.",
+  "product_details": {
+    "fabric": "N/A",
+    "color": "Pink",
+    "work": "Fragrance",
+    "occasion": "Everyday",
+    "size": []
+  },
+  "images": [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg",
+    "https://example.com/image3.jpg"
+  ],
+  "sellerName": "BeautyMart",
+  "combo_offer": {
+    "productId": "bp-5511-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "683444a0d1396ae759e8bb6c"
+  },
+  "productCode": "bp-5512",
+  "url": "https://images.meesho.com/images/products/371537464/vrwoj_400.webp",
+  "title": "Facial Massage Kit",
+  "price": 224,
+  "originalPrice": 280,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "437",
+  "ratings": "3.4",
+  "category": [
+    "Massage",
+    "Kit"
+  ],
+  "mainCategory": "BeautyProducts",
+  "brand": "DermaTouch",
+  "description": "Facial massage kit for relaxation and care.",
+  "product_details": {
+    "fabric": "Plastic",
+    "color": "White",
+    "work": "Massage",
+    "occasion": "Relaxation",
+    "size": []
+  },
+  "images": [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg",
+    "https://example.com/image3.jpg"
+  ],
+  "sellerName": "BeautyMart",
+  "combo_offer": {
+    "productId": "bp-5512-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "68344500d1396ae759e8bb6d"
+  },
+  "productCode": "b-661",
+  "url": "https://images.meesho.com/images/products/194885424/hvchs_400.webp",
+  "title": "Womens Trendy HandBags",
+  "price": 324,
+  "originalPrice": 405,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "3756",
+  "ratings": "3.4",
+  "category": [
+    "HandBags"
+  ],
+  "mainCategory": "Bags",
+  "brand": "Lavie",
+  "description": "Stylish and trendy handbags for women.",
+  "product_details": {
+    "material": "Leather",
+    "color": "Black",
+    "occasion": "Casual",
+    "size": [
+      "Medium",
+      "Large"
+    ]
+  },
+  "images": [
+    "https://images.meesho.com/images/products/194885424/hvchs_400.webp"
+  ],
+  "sellerName": "BagStore",
+  "combo_offer": {
+    "productId": "b-661-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "68344500d1396ae759e8bb6e"
+  },
+  "productCode": "b-662",
+  "url": "https://images.meesho.com/images/products/392383953/azmdh_400.webp",
+  "title": "Girls Shoulder Bag",
+  "price": 524,
+  "originalPrice": 655,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "346",
+  "ratings": "3.4",
+  "category": [
+    "Girls Shoulder Bags"
+  ],
+  "mainCategory": "Bags",
+  "brand": "Baggit",
+  "description": "Comfortable shoulder bag for girls.",
+  "product_details": {
+    "material": "Synthetic",
+    "color": "Pink",
+    "occasion": "Casual",
+    "size": [
+      "Small"
+    ]
+  },
+  "images": [
+    "https://images.meesho.com/images/products/392383953/azmdh_400.webp"
+  ],
+  "sellerName": "BagStore",
+  "combo_offer": {
+    "productId": "b-662-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "68344500d1396ae759e8bb6f"
+  },
+  "productCode": "b-663",
+  "url": "https://images.meesho.com/images/products/195070537/vm077_400.webp",
+  "title": "Travel Bag",
+  "price": 324,
+  "originalPrice": 405,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "778",
+  "ratings": "3.4",
+  "category": [
+    "Travel Bags"
+  ],
+  "mainCategory": "Bags",
+  "brand": "Lino Perros",
+  "description": "Durable travel bag for your trips.",
+  "product_details": {
+    "material": "Canvas",
+    "color": "Blue",
+    "occasion": "Travel",
+    "size": [
+      "Large"
+    ]
+  },
+  "images": [
+    "https://images.meesho.com/images/products/195070537/vm077_400.webp"
+  ],
+  "sellerName": "BagStore",
+  "combo_offer": {
+    "productId": "b-663-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "68344500d1396ae759e8bb70"
+  },
+  "productCode": "b-664",
+  "url": "https://images.meesho.com/images/products/81412794/ivama_400.webp",
+  "title": "Mens Wallet",
+  "price": 524,
+  "originalPrice": 655,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "566",
+  "ratings": "3.4",
+  "category": [
+    "Mens Wallet"
+  ],
+  "mainCategory": "Bags",
+  "brand": "Hidesign",
+  "description": "Classic men's wallet made of leather.",
+  "product_details": {
+    "material": "Leather",
+    "color": "Brown",
+    "occasion": "Formal",
+    "size": [
+      "Standard"
+    ]
+  },
+  "images": [
+    "https://images.meesho.com/images/products/81412794/ivama_400.webp"
+  ],
+  "sellerName": "BagStore",
+  "combo_offer": {
+    "productId": "b-664-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "68344500d1396ae759e8bb71"
+  },
+  "productCode": "b-665",
+  "url": "https://images.meesho.com/images/products/342686758/lzokz_400.webp",
+  "title": "Mens Shoulder Bag",
+  "price": 724,
+  "originalPrice": 905,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "664",
+  "ratings": "3.4",
+  "category": [
+    "Mens Shoulder Bags"
+  ],
+  "mainCategory": "Bags",
+  "brand": "Unique Sky",
+  "description": "Premium men's shoulder bag with ample space.",
+  "product_details": {
+    "material": "Leather",
+    "color": "Black",
+    "occasion": "Formal",
+    "size": [
+      "Medium"
+    ]
+  },
+  "images": [
+    "https://images.meesho.com/images/products/342686758/lzokz_400.webp"
+  ],
+  "sellerName": "BagStore",
+  "combo_offer": {
+    "productId": "b-665-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "68344500d1396ae759e8bb72"
+  },
+  "productCode": "b-666",
+  "url": "https://images.meesho.com/images/products/507928563/xcp4b_400.webp",
+  "title": "Travel Bag",
+  "price": 424,
+  "originalPrice": 530,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "453",
+  "ratings": "3.4",
+  "category": [
+    "Travel Bags"
+  ],
+  "mainCategory": "Bags",
+  "brand": "Lavie",
+  "description": "Stylish and spacious travel bag.",
+  "product_details": {
+    "material": "Nylon",
+    "color": "Red",
+    "occasion": "Travel",
+    "size": [
+      "Large"
+    ]
+  },
+  "images": [
+    "https://images.meesho.com/images/products/507928563/xcp4b_400.webp"
+  ],
+  "sellerName": "BagStore",
+  "combo_offer": {
+    "productId": "b-666-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "68344500d1396ae759e8bb73"
+  },
+  "productCode": "b-667",
+  "url": "https://images.meesho.com/images/products/359934952/9hv3q_400.webp",
+  "title": "Mens Shoulder Bag",
+  "price": 324,
+  "originalPrice": 405,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "78565",
+  "ratings": "3.4",
+  "category": [
+    "Mens Shoulder Bags"
+  ],
+  "mainCategory": "Bags",
+  "brand": "Baggit",
+  "description": "Durable and stylish men's shoulder bag.",
+  "product_details": {
+    "material": "Leather",
+    "color": "Brown",
+    "occasion": "Casual",
+    "size": [
+      "Medium"
+    ]
+  },
+  "images": [
+    "https://images.meesho.com/images/products/359934952/9hv3q_400.webp"
+  ],
+  "sellerName": "BagStore",
+  "combo_offer": {
+    "productId": "b-667-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "68344500d1396ae759e8bb74"
+  },
+  "productCode": "b-668",
+  "url": "https://images.meesho.com/images/products/375071525/h8ot5_400.webp",
+  "title": "Womens Trendy HandBags",
+  "price": 284,
+  "originalPrice": 355,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "57567",
+  "ratings": "3.4",
+  "category": [
+    "HandBags"
+  ],
+  "mainCategory": "Bags",
+  "brand": "Hidesign",
+  "description": "Elegant handbags for women.",
+  "product_details": {
+    "material": "Leather",
+    "color": "Red",
+    "occasion": "Party",
+    "size": [
+      "Small",
+      "Medium"
+    ]
+  },
+  "images": [
+    "https://images.meesho.com/images/products/375071525/h8ot5_400.webp"
+  ],
+  "sellerName": "BagStore",
+  "combo_offer": {
+    "productId": "b-668-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "68344500d1396ae759e8bb75"
+  },
+  "productCode": "b-669",
+  "url": "https://images.meesho.com/images/products/4158256/1_400.webp",
+  "title": "Womens Trendy HandBags",
+  "price": 524,
+  "originalPrice": 655,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "3648",
+  "ratings": "3.4",
+  "category": [
+    "HandBags"
+  ],
+  "mainCategory": "Bags",
+  "brand": "Unique Sky",
+  "description": "Trendy and spacious handbags for women.",
+  "product_details": {
+    "material": "Synthetic",
+    "color": "Blue",
+    "occasion": "Casual",
+    "size": [
+      "Medium"
+    ]
+  },
+  "images": [
+    "https://images.meesho.com/images/products/4158256/1_400.webp"
+  ],
+  "sellerName": "BagStore",
+  "combo_offer": {
+    "productId": "b-669-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "68344500d1396ae759e8bb76"
+  },
+  "productCode": "b-6610",
+  "url": "https://images.meesho.com/images/products/167057949/r0i1s_400.webp",
+  "title": "Mens Wallet",
+  "price": 424,
+  "originalPrice": 530,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "8628",
+  "ratings": "3.4",
+  "category": [
+    "Mens Wallet"
+  ],
+  "mainCategory": "Bags",
+  "brand": "Lino Perros",
+  "description": "Classic wallet for men with multiple compartments.",
+  "product_details": {
+    "material": "Leather",
+    "color": "Black",
+    "occasion": "Formal",
+    "size": [
+      "Standard"
+    ]
+  },
+  "images": [
+    "https://images.meesho.com/images/products/167057949/r0i1s_400.webp"
+  ],
+  "sellerName": "BagStore",
+  "combo_offer": {
+    "productId": "b-6610-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+},
+{
+  "_id": {
+    "$oid": "68344500d1396ae759e8bb77"
+  },
+  "productCode": "b-6611",
+  "url": "https://images.meesho.com/images/products/348772397/py4kn_400.webp",
+  "title": "Womens Trendy HandBags",
+  "price": 524,
+  "originalPrice": 655,
+  "offerPercentage": 20,
+  "deliveryStatus": "Free Delivery",
+  "reviews": "1336",
+  "ratings": "3.4",
+  "category": [
+    "HandBags"
+  ],
+  "mainCategory": "Bags",
+  "brand": "Lavie",
+  "description": "Trendy handbags to elevate your style.",
+  "product_details": {
+    "material": "Leather",
+    "color": "Brown",
+    "occasion": "Casual",
+    "size": [
+      "Medium"
+    ]
+  },
+  "images": [
+    "https://images.meesho.com/images/products/348772397/py4kn_400.webp"
+  ],
+  "sellerName": "BagStore",
+  "combo_offer": {
+    "productId": "b-6611-c1",
+    "image": "https://images.meesho.com/images/products/63175574/j58br_400.webp"
+  }
+}]

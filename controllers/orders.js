@@ -117,23 +117,31 @@ exports.buyNow = async (req, res) => {
         const { _id = '' } = await getTokenUserDetails(req);
         const { body: { cartId, paymentId } = {} } = req
         if (_id && cartId) {
-            let cart = CartTable.findOne({ _id: cartId, isActive: true });
-            let orderData = new OrdersTable(cart);
-            // Fetch address from user table using address id and assign as string
-            const user = await UserTable.findById(_id);
-            let selectedAddress = '';
-            if (user && Array.isArray(user.addresses)) {
-                const addrObj = user.addresses.find(addr => addr._id.toString() === cart.address);
-                if (addrObj) {
-                    selectedAddress = JSON.stringify(addrObj);
-                }
+            let cart = await CartTable.findOne({ _id: cartId, isActive: true });
+            if (!cart) {
+                return responseHandler.error(res, "Cart not found", 404);
             }
-            orderData.address = selectedAddress;
-            orderData.paymentId = paymentId
-            orderData.paymentStatus = 'INITIATED';
+            const address = await UserTable.findOne(
+                { _id, "addresses._id": cart.address },
+                { "addresses.$": 1 }
+            );
+            const { name, district, houseAddress, locality, phone, pincode, state } = address.addresses[0];
+            const addressString = [name, houseAddress, state, district, locality, pincode, phone]
+            let orderData = new OrdersTable({
+                totalQty: cart.totalQty,
+                totalCost: cart.totalCost,
+                originalCost: cart.originalCost,
+                discount: cart.discount,
+                deliveryCharge: cart.deliveryCharge,
+                items: cart.items,
+                user: _id,
+                paymentId: paymentId,
+                address: addressString.join(', '),
+                paymentStatus: 'INITIATED',
+            });
             await orderData.save();
             responseHandler.success(res, orderData, "Order placed successfully", 200)
-            await CartTable.findByIdAndUpdate(cartId, { isActive: false });
+            await CartTable.findByIdAndUpdate(cartId, { isActive: true });
         } else responseHandler.unauthorized(res, "Login to place order", 200)
     } catch (err) {
         if (err) {
