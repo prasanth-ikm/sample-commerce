@@ -49,6 +49,9 @@ const cartSchema = new mongoose.Schema({
     type: Number,
     default: 0,
   },
+  address: {
+    type: mongoose.Schema.Types.ObjectId,
+  },
   discount: {
     type: Number,
     default: 0,
@@ -61,6 +64,10 @@ const cartSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: "User",
     required: false,
+  },
+  isActive: {
+    type: Boolean,
+    default: true,
   },
 }, {
   timestamps: true,

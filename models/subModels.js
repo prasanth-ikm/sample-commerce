@@ -32,6 +32,9 @@ const Users = new mongoose.Schema({
         pincode: String,
         phone: String
     }],
+    defaultAddress: {
+        type: mongoose.Schema.Types.ObjectId,
+    },
     isActive: {
         type: Boolean,
         default: true

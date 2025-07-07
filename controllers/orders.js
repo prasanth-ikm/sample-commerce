@@ -3,11 +3,13 @@ const ProductTable = require("../models/product");
 const OrdersTable = require("../models/order");
 const { getTokenUserDetails } = require("./common");
 const { responseHandler } = require("./response");
+const { UserTable } = require("../models/subModels");
 
 exports.addToCart = async (req, res) => {
     try {
         const { _id = '' } = await getTokenUserDetails(req);
-        let userCart = await CartTable.findOne({ user: _id });
+        let userCart = await CartTable.findOne({ user: _id, isActive: true });
+        const user = await UserTable.findById(_id);
         let product = await ProductTable.findById(req.body.productId);
         if (userCart) {
             // If cart exists, update the existing cart
@@ -33,6 +35,7 @@ exports.addToCart = async (req, res) => {
             userCart.totalCost += product.price;
             userCart.originalCost += product.originalPrice;
             userCart.discount = userCart.originalCost - userCart.totalCost;
+            userCart.address = user.defaultAddress
             await userCart.save();
             responseHandler.success(res, userCart, "Product Added to cart Successfully", 200)
         } else {
@@ -50,6 +53,7 @@ exports.addToCart = async (req, res) => {
                 }],
                 totalQty: req.body.qty,
                 totalCost: product.price,
+                address: user.defaultAddress,
                 originalCost: product.originalPrice,
                 discount: product.originalPrice - product.price
             });
@@ -66,16 +70,15 @@ exports.addToCart = async (req, res) => {
 exports.deleteInCart = async (req, res) => {
     try {
         const { _id = '' } = await getTokenUserDetails(req);
-        let userCart = await CartTable.findOne({ user: _id });
+        let userCart = await CartTable.findOne({ user: _id, isActive: true });
         if (userCart) {
             let itemIndex = userCart.items.findIndex(item => item._id.toString() === req.body.productId);
             if (itemIndex > -1) {
-                const item = userCart.items[itemIndex];
-                userCart.totalQty = item.qty;
-                userCart.totalCost = item.price * item.qty;
-                userCart.originalCost = item.originalPrice * item.qty;
-                userCart.discount = userCart.originalCost - userCart.totalCost;
                 userCart.items.splice(itemIndex, 1);
+                userCart.totalQty = userCart.items.reduce((sum, item) => sum + item.qty, 0);
+                userCart.totalCost = userCart.items.reduce((sum, item) => sum + (item.price * item.qty), 0);
+                userCart.originalCost = userCart.items.reduce((sum, item) => sum + (item.originalPrice * item.qty), 0);
+                userCart.discount = userCart.originalCost - userCart.totalCost;
                 if (userCart.items.length === 0) {
                     await CartTable.deleteOne({ user: _id });
                     return responseHandler.success(res, {}, "Cart is empty", 200);
@@ -99,7 +102,7 @@ exports.getCart = async (req, res) => {
     try {
         const { _id = '' } = await getTokenUserDetails(req);
         if (_id) {
-            let data = await CartTable.findOne({ user: _id });
+            let data = await CartTable.findOne({ user: _id, isActive: true });
             responseHandler.success(res, data, 'Fetched success', 200)
         } else responseHandler.error(res, 'User ID missing', 500)
     } catch (err) {
@@ -112,16 +115,25 @@ exports.getCart = async (req, res) => {
 exports.buyNow = async (req, res) => {
     try {
         const { _id = '' } = await getTokenUserDetails(req);
-        const { body: { address, cartId, paymentId, paymentStatus } = {} } = req
+        const { body: { cartId, paymentId } = {} } = req
         if (_id && cartId) {
-            let cart = CartTable.findById(cartId)
+            let cart = CartTable.findOne({ _id: cartId, isActive: true });
             let orderData = new OrdersTable(cart);
-            orderData.address = address
+            // Fetch address from user table using address id and assign as string
+            const user = await UserTable.findById(_id);
+            let selectedAddress = '';
+            if (user && Array.isArray(user.addresses)) {
+                const addrObj = user.addresses.find(addr => addr._id.toString() === cart.address);
+                if (addrObj) {
+                    selectedAddress = JSON.stringify(addrObj);
+                }
+            }
+            orderData.address = selectedAddress;
             orderData.paymentId = paymentId
-            orderData.paymentStatus = paymentStatus
+            orderData.paymentStatus = 'INITIATED';
             await orderData.save();
             responseHandler.success(res, orderData, "Order placed successfully", 200)
-            await CartTable.findByIdAndDelete(cartId);
+            await CartTable.findByIdAndUpdate(cartId, { isActive: false });
         } else responseHandler.unauthorized(res, "Login to place order", 200)
     } catch (err) {
         if (err) {

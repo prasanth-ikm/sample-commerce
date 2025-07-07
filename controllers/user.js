@@ -1,6 +1,7 @@
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const { UserTable } = require("../models/subModels");
+const CartTable = require("../models/cart");
 const { responseHandler } = require("./response");
 const { getTokenUserDetails } = require('./common');
 
@@ -190,8 +191,31 @@ exports.myAddress = async (req, res) => {
     try {
         const user = await getTokenUserDetails(req);
         if (user?._id) {
-                const userDoc = await UserTable.findById(user._id);
-                responseHandler.success(res, userDoc.addresses, 'Address fetched successfully', 200);
+            const userDoc = await UserTable.findById(user._id);
+            responseHandler.success(res, userDoc.addresses, 'Address fetched successfully', 200);
+        } else {
+            responseHandler.unauthorized(res, 'Un-authorized User', 401)
+        }
+    } catch (err) {
+        if (err) {
+            responseHandler.error(res, err.message, 500)
+        }
+    }
+}
+
+exports.defaultAddress = async (req, res) => {
+    try {
+        const user = await getTokenUserDetails(req);
+        if (user?._id) {
+            const data = await UserTable.findByIdAndUpdate( user?._id, {
+                defaultAddress: req.body.addressId
+            })
+            let userCart = await CartTable.findOne({ user: user?._id });
+            if (userCart) {
+                userCart.address=req.body.addressId
+                await userCart.save()
+            }
+            responseHandler.success(res, data, 'Default Address added', 200);
         } else {
             responseHandler.unauthorized(res, 'Un-authorized User', 401)
         }

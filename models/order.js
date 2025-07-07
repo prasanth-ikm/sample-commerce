@@ -73,7 +73,7 @@ const orderSchema = new mongoose.Schema({
     type: String,
   },
   deliveryStatus: {
-    type: Boolean,
+    type: String,
     default: false,
   },
 }, {

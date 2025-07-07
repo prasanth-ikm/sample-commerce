@@ -8,7 +8,7 @@ exports.makePayment = async (req, res) => {
             amount,
             currency,
         });
-        responseHandler.success(res, { clientSecret: paymentIntent.client_secret }, "Payment Successfully", 200)
+        responseHandler.success(res, paymentIntent, "Payment Successfully", 200)
     } catch (error) {
         responseHandler.error(res, error.message, 500)
     }
