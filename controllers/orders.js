@@ -128,7 +128,9 @@ exports.buyNow = async (req, res) => {
             const {
                 name = '', district = '', houseAddress = '', locality = '', phone = '', pincode = '', state = ''
             } = address.addresses[0] || {};
+            const randomId = Date.now() * 2
             let orderData = new OrdersTable({
+                orderId: (randomId / 100024).toFixed(0).toString(),
                 totalQty: cart.totalQty,
                 totalCost: cart.totalCost,
                 originalCost: cart.originalCost,
@@ -143,7 +145,7 @@ exports.buyNow = async (req, res) => {
             });
             await orderData.save();
             responseHandler.success(res, orderData, "Order placed successfully", 200)
-            await CartTable.findByIdAndUpdate(cartId, { isActive: true });
+            await CartTable.findByIdAndUpdate(cartId, { isActive: false });
         } else responseHandler.unauthorized(res, "Login to place order", 200)
     } catch (err) {
         if (err) {

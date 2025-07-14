@@ -5,6 +5,9 @@ const orderSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: "Users",
   },
+   orderId: {
+    type: String,
+  },
   totalQty: {
     type: Number,
     default: 0,
